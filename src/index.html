@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script>
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function () {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+
+    window.config = {};
+    window.config.username = '';
+    let privileges = '';
+    window.config.myPrivileges = privileges.split(',');
+    window.config.appEnv = '/ticket';
+  </script>
+  <!-- <script src="http://192.168.96.156:8080/target/target-script-min.js#anonymous"></script> -->
+  <!-- // <script src="Static/js/flexible/flexible.debug.js"></script> -->
+</head>
+
+<body>
+  <div id="root"></div>
+</body>

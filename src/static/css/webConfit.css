@@ -1,0 +1,249 @@
+/*用户侧样式*/
+.userWrap{
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.usercontent{
+    width: 360px;
+    height: 500px;
+    position: relative;
+    margin:0 auto;
+
+}
+.bd_color{
+    background: #15a9ff;
+}
+.chatbox{
+    width: 100%;
+    height: 450px;
+    border-radius:6px;
+    box-shadow:0 3px 10px rgba(44,44,44,0.2);
+    overflow:hidden;
+}
+.chatcon{
+    width:100%;
+    height: 330px;
+}
+.userchatcon_title {
+    width: 100%;
+    height: 50px;
+}
+.userchatcon_info{
+    padding-left:10px;
+    float: left;
+    height: 100%;
+}
+.userchatcon_info .img{
+    float: left;
+    border: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: block;
+    margin:8px auto;
+    box-shadow: 0 2px 6px rgba(44,44,44,0.28);
+}
+.nickname{
+    float: left;
+    max-width: 142px;
+    height: 100%;
+    line-height: 50px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    padding-left: 10px;
+}
+.chatcon_operate {
+    float: right;
+    height: 50px;
+    color: #fff;
+    padding-right: 10px;
+    position: relative;
+}
+.chatcon_voice{
+    position: absolute;
+    right:35px;
+}
+.chatcon_exit{
+    position: absolute;
+    right:10px;
+    top:0px;
+}
+.chatcon_operate>img{
+    width:20px;
+    height:20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.chatcon_operate>img:hover{
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+.chatcon_exit{
+    margin-left: 8px;
+}
+.usersendcon {
+    /*width:100%;
+    height: 120px;
+    border-top: 1px solid #f1f1f1;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    border-top: 1px solid #f1f1f1;
+}
+.usersend_titlt{
+    height: 29px;
+    /*border-top: 1px solid #f1f1f1;*/
+    position: relative;
+    padding-left: 10px;
+    padding-top:10px;
+    background: #fff;
+}
+.usersend_titlt a {
+    font-size: 16px;
+    color: #000;
+    height: 19px;
+    line-height: 19px;
+    display: block;
+    float: left;
+    margin-right: 16px;
+    cursor: pointer;
+}
+a:hover {
+    color: #5cb9fa;
+}
+.user_send_content{
+    width: 100%;
+    height: 90px;
+    overflow-y: auto;
+    position: relative;
+    padding-left: 10px;
+    background: #fff;
+}
+.user_send_content .textarea {
+    height: 90px;
+    width:100%;
+    font-size: 14px;
+    overflow-y: auto;
+    border: none;
+    outline: none;
+    display: block;
+    resize: none;
+}
+.user_send_content .send {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    border:0;
+}
+
+/*底边按钮  图标字体大小18px*/
+.userWrap .bottom_style{
+    width:auto;
+    height: 40px;
+    overflow: hidden;
+    padding:0 12px;
+    border-radius: 10px 0 0 10px;
+    position:absolute;
+    bottom: 30px;
+    right: 0px;
+    cursor:pointer;
+}
+.bottom_img_style{
+    width: 22px;
+    height: 22px;
+    margin:9px auto;
+    float: left;
+    display: block;
+}
+.bottom_word{
+    height:40px;
+    line-height:40px;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    padding-left: 12px;
+    font-family: Microsoft YaHei;
+}
+.bottom_word i{
+    display: inline-block;
+    margin-right:12px;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+.round_style i{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+}
+/*侧边按钮  ----------------图标字体大小18px*/
+.userWrap .side_style{
+    width:40px;
+    height: auto;
+    overflow: hidden;
+    padding: 12px 0;
+    border-radius: 10px 0 0 10px;
+    position:absolute;
+    bottom: 30px;
+    right: 0px;
+    cursor:pointer;
+}
+.side_img_style{
+    width:22px;
+    height: 22px;
+    margin:0 auto;
+    display: block;
+}
+.side_word{
+    text-align:center;
+    font-size: 14px;
+    color: #fff;
+    margin:0 auto;
+    line-height: 19px;
+    /*padding-top:12px;*/
+    width:20px;
+    font-family: "Microsoft YaHei";
+}
+
+/*圆形按钮---------------------------  图标字体大小21px*/
+.userWrap .round_style{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor:pointer;
+    text-align: center;
+    line-height: 60px;
+    color:#fff;
+}
+.round_img_style{
+    display: block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}

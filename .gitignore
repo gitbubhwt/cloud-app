@@ -1,0 +1,12 @@
+dea
+*.iml
+.vscode
+/node_modules/
+pkg
+bin
+build
+.DS_Store
+*/.DS_Store
+*/.idea/*
+/.idea
+/dist/
